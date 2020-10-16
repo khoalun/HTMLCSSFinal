@@ -1,0 +1,128 @@
+        /* // css bài 2
+body {
+    height: 100vh;
+    width: 100vw;
+}
+
+.box {
+    width: 400px;
+    margin: 20px;
+    text-align: center;
+    border: 2px solid black;
+}
+
+img {
+    width: 100%;
+}
+
+p {
+    font-size: 18px;
+    font-weight: 600;
+    margin-top: 20px;
+}
+
+.container {
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    background-color: tomato;
+    justify-content: space-evenly;
+} */
+        
+        * {
+            padding: 0;
+            margin: 0;
+        }
+        
+        body {
+            height: 100vh;
+            width: 100vw;
+            justify-content: center;
+            align-items: center;
+            display: flex;
+        }
+        
+        .container {
+            background-color: tomato;
+            width: 700px;
+            justify-content: center;
+            align-items: center;
+        }
+        
+        .header {
+            background-color: aquamarine;
+            margin: auto;
+            width: 650px;
+            height: 50px;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            margin-top: 20px;
+            display: flex;
+        }
+        
+        .main {
+            width: 600px;
+            height: 500px;
+            margin-left: 50px;
+            margin-top: 50px;
+            margin-bottom: 50px;
+            display: flex;
+        }
+        
+        .footer {
+            background-color: aquamarine;
+            margin: auto;
+            align-items: center;
+            text-align: center;
+            display: flex;
+            justify-content: center;
+            width: 650px;
+            height: 50px;
+            margin-bottom: 20px;
+        }
+        
+        .title {
+            width: 400px;
+            height: 100%;
+            flex-direction: column;
+            background-color: yellowgreen;
+            height: 100%;
+            display: flex;
+            justify-content: flex-end;
+            align-items: center;
+        }
+        
+        .aside {
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            height: 100%;
+            width: 250px;
+            background-color: bisque;
+            margin-right: 50px;
+            display: flex;
+            font-size: 30px;
+            font-weight: bold;
+        }
+        
+        .image-container {
+            /* background-color: teal; */
+            justify-content: space-evenly;
+            width: 100%;
+            display: flex;
+            margin-bottom: 30px;
+            margin-top: 30px;
+        }
+        
+        .box {
+            width: 100px;
+            height: 80px;
+            background-color: wheat;
+            text-align: center;
+            align-items: center;
+            justify-content: center;
+            display: flex;
+            font-size: 20px;
+            font-weight: bold;
+        }
